@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Customer",
+    "presentationColumns" : [ {
+      "name" : "Cust First Name",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Customers.Cust First Name",
+      "localization" : {
+        "localizationKey" : "Cust First Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer_Cust_First_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer_Cust_First_Name)"
+      }
+    }, {
+      "name" : "Cust Gender",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Customers.Cust Gender",
+      "localization" : {
+        "localizationKey" : "Cust Gender",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer_Cust_Gender)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer_Cust_Gender)"
+      }
+    }, {
+      "name" : "Cust Postal Code",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Customers.Cust Postal Code",
+      "localization" : {
+        "localizationKey" : "Cust Postal Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer_Cust_Postal_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer_Cust_Postal_Code)"
+      }
+    }, {
+      "name" : "Cust Marital Status",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Customers.Cust Marital Status",
+      "localization" : {
+        "localizationKey" : "Cust Marital Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer_Cust_Marital_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer_Cust_Marital_Status)"
+      }
+    }, {
+      "name" : "Cust Last Name",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Customers.Cust Last Name",
+      "localization" : {
+        "localizationKey" : "Cust Last Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer_Cust_Last_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer_Cust_Last_Name)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Customer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Customer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Customer)"
+    }
+  }
+}

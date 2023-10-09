@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Base Facts",
+    "presentationColumns" : [ {
+      "name" : "Quantity Sold",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Sales.Quantity Sold",
+      "localization" : {
+        "localizationKey" : "Quantity Sold",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Base_Facts_Quantity_Sold)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Base_Facts_Quantity_Sold)"
+      }
+    }, {
+      "name" : "Amount Sold",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Sales.Amount Sold",
+      "localization" : {
+        "localizationKey" : "Amount Sold",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Base_Facts_Amount_Sold)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Base_Facts_Amount_Sold)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Base Facts",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Base_Facts)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Base_Facts)"
+    }
+  }
+}

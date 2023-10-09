@@ -1,0 +1,43 @@
+{
+  "presentationTable" : {
+    "name" : "Product",
+    "presentationColumns" : [ {
+      "name" : "Prod Category",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Products.Prod Category",
+      "localization" : {
+        "localizationKey" : "Prod Category",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Product_Prod_Category)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Product_Prod_Category)"
+      }
+    }, {
+      "name" : "Prod Name",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Products.Prod Name",
+      "localization" : {
+        "localizationKey" : "Prod Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Product_Prod_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Product_Prod_Name)"
+      }
+    }, {
+      "name" : "Prod Status",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Products.Prod Status",
+      "localization" : {
+        "localizationKey" : "Prod Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Product_Prod_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Product_Prod_Status)"
+      }
+    }, {
+      "name" : "Prod Subcategory",
+      "sourceLogicalColumn" : "logicalColumn:Demo BMM.Products.Prod Subcategory",
+      "localization" : {
+        "localizationKey" : "Prod Subcategory",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Product_Prod_Subcategory)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Product_Prod_Subcategory)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Product",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA_Product)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA_Product)"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "database" : {
+    "name" : "MyDatabase",
+    "databaseType" : "ORACLE_DATABASE",
+    "featureOverrides" : [ {
+      "name" : "GEOMETRY_AREA_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_AS_TEXT_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_DISTANCE_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_LENGTH_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_WITHIN_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_WITHIN_DISTANCE_SUPPORTED",
+      "value" : false
+    } ],
+    "virtualPrivateDatabase" : false,
+    "crmMetadataTables" : false,
+    "allowDirectDatabaseRequests" : false,
+    "allowPopulateQueries" : false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "subjectArea" : {
+    "name" : "Sample SA",
+    "sourceBusinessModel" : "businessModel:Demo BMM",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sample SA.Customer"
+    }, {
+      "name" : "presentationTable:Sample SA.Product"
+    }, {
+      "name" : "presentationTable:Sample SA.Base Facts"
+    } ],
+    "localization" : {
+      "localizationKey" : "Sample SA",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Sample_SA)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Sample_SA)"
+    }
+  }
+}
