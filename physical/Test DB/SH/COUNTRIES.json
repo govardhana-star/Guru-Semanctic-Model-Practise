@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "COUNTRIES",
+    "description" : "This is the first country description.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "COUNTRY_ID",
@@ -52,6 +53,10 @@
       "dataType" : "VARCHAR",
       "length" : 40,
       "nullable" : true
-    } ]
+    } ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    }
   }
 }
