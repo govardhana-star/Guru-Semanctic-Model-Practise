@@ -1,7 +1,7 @@
 {
   "physicalTable" : {
     "name" : "CUSTOMERS",
-    "description" : "This is first demo Customer Description.",
+    "description" : "This is todays demo Customer Description.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "CUST_ID",
