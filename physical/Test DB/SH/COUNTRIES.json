@@ -1,7 +1,7 @@
 {
   "physicalTable" : {
     "name" : "COUNTRIES",
-    "description" : "This is the first country description.",
+    "description" : "This is the today country description.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "COUNTRY_ID",
