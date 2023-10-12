@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "CUSTOMERS",
+    "description" : "This is 111023 demo Customer Description.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "CUST_ID",
@@ -118,6 +119,10 @@
       "length" : 1,
       "nullable" : true
     } ],
-    "additionalKeys" : [ [ "CUST_ID" ] ]
+    "additionalKeys" : [ [ "CUST_ID" ] ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    }
   }
 }
