@@ -1,7 +1,7 @@
 {
   "physicalTable" : {
     "name" : "PRODUCTS",
-    "description" : "This is Product description 12oct23.",
+    "description" : "This is Product description 12oct23.Checking.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "PROD_ID",
