@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "SALES",
+    "description" : "Changed on 12th Oct",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "PROD_ID",
@@ -38,20 +39,28 @@
       "length" : 0,
       "nullable" : false
     } ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    },
     "joins" : [ {
       "rightTable" : "physicalTable:Test DB.SH.CUSTOMERS",
       "useJoinExpression" : false,
       "joinConditions" : [ {
         "leftColumn" : "physicalColumn:Test DB.SH.SALES.CUST_ID",
         "rightColumn" : "physicalColumn:Test DB.SH.CUSTOMERS.CUST_ID"
-      } ]
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     }, {
       "rightTable" : "physicalTable:Test DB.SH.PRODUCTS",
       "useJoinExpression" : false,
       "joinConditions" : [ {
         "leftColumn" : "physicalColumn:Test DB.SH.SALES.PROD_ID",
         "rightColumn" : "physicalColumn:Test DB.SH.PRODUCTS.PROD_ID"
-      } ]
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     } ]
   }
 }
