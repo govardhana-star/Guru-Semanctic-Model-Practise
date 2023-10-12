@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "PRODUCTS",
+    "description" : "This is Product description 12oct23.",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "PROD_ID",
@@ -113,6 +114,10 @@
       "length" : 1,
       "nullable" : true
     } ],
-    "additionalKeys" : [ [ "PROD_ID" ] ]
+    "additionalKeys" : [ [ "PROD_ID" ] ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    }
   }
 }
