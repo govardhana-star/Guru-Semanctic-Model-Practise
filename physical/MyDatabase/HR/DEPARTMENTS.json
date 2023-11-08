@@ -1,0 +1,34 @@
+{
+  "physicalTable" : {
+    "name" : "DEPARTMENTS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DEPARTMENT_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "LOCATION_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.HR.LOCATIONS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.HR.DEPARTMENTS.LOCATION_ID",
+        "rightColumn" : "physicalColumn:MyDatabase.HR.LOCATIONS.LOCATION_ID"
+      } ]
+    } ]
+  }
+}

@@ -61,6 +61,15 @@
       } ],
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Test DB.SH.TIMES",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.SH.SALES.TIME_ID",
+        "rightColumn" : "physicalColumn:Test DB.SH.TIMES.TIME_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     } ]
   }
 }

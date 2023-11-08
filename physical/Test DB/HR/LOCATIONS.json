@@ -1,0 +1,49 @@
+{
+  "physicalTable" : {
+    "name" : "LOCATIONS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "LOCATION_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STREET_ADDRESS",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "POSTAL_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 12,
+      "nullable" : true
+    }, {
+      "name" : "CITY",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "STATE_PROVINCE",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "COUNTRY_ID",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:Test DB.HR.COUNTRIES",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.HR.LOCATIONS.COUNTRY_ID",
+        "rightColumn" : "physicalColumn:Test DB.HR.COUNTRIES.COUNTRY_ID"
+      } ]
+    } ]
+  }
+}

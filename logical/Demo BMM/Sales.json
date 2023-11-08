@@ -129,6 +129,11 @@
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "logicalTable:Demo BMM.Products"
+    }, {
+      "rightTable" : "logicalTable:Demo BMM.Times",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
     } ]
   }
 }

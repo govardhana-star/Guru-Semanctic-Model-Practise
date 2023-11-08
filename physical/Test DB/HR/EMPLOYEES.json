@@ -1,0 +1,83 @@
+{
+  "physicalTable" : {
+    "name" : "EMPLOYEES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "EMPLOYEE_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : true
+    }, {
+      "name" : "LAST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : false
+    }, {
+      "name" : "EMAIL",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "PHONE_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : true
+    }, {
+      "name" : "HIRE_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "JOB_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALARY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "MANAGER_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:Test DB.HR.DEPARTMENTS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.HR.EMPLOYEES.DEPARTMENT_ID",
+        "rightColumn" : "physicalColumn:Test DB.HR.DEPARTMENTS.DEPARTMENT_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:Test DB.HR.JOBS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.HR.EMPLOYEES.JOB_ID",
+        "rightColumn" : "physicalColumn:Test DB.HR.JOBS.JOB_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:Test DB.HR.EMPLOYEES",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.HR.EMPLOYEES.MANAGER_ID",
+        "rightColumn" : "physicalColumn:Test DB.HR.EMPLOYEES.EMPLOYEE_ID"
+      } ]
+    } ]
+  }
+}

@@ -8,6 +8,8 @@
       "name" : "presentationTable:Sample SA.Product"
     }, {
       "name" : "presentationTable:Sample SA.Base Facts"
+    }, {
+      "name" : "presentationTable:Sample SA.Time"
     } ],
     "localization" : {
       "localizationKey" : "Sample SA",

@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "COUNTRIES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "COUNTRY_ID",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "REGION_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}
