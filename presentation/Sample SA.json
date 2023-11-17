@@ -3,13 +3,13 @@
     "name" : "Sample SA",
     "sourceBusinessModel" : "businessModel:Demo BMM",
     "tableOrder" : [ {
+      "name" : "presentationTable:Sample SA.Time"
+    }, {
       "name" : "presentationTable:Sample SA.Customer"
     }, {
       "name" : "presentationTable:Sample SA.Product"
     }, {
       "name" : "presentationTable:Sample SA.Base Facts"
-    }, {
-      "name" : "presentationTable:Sample SA.Time"
     } ],
     "localization" : {
       "localizationKey" : "Sample SA",

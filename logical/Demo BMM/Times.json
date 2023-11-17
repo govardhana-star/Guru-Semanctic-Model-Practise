@@ -9,7 +9,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.TIME_ID" ]
@@ -23,7 +23,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAY_NAME" ]
@@ -37,7 +37,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAY_NUMBER_IN_WEEK" ]
@@ -51,7 +51,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAY_NUMBER_IN_MONTH" ]
@@ -65,7 +65,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_WEEK_NUMBER" ]
@@ -79,7 +79,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_WEEK_NUMBER" ]
@@ -93,7 +93,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.WEEK_ENDING_DAY" ]
@@ -107,7 +107,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.WEEK_ENDING_DAY_ID" ]
@@ -121,7 +121,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_MONTH_NUMBER" ]
@@ -135,7 +135,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_MONTH_NUMBER" ]
@@ -149,7 +149,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_MONTH_DESC" ]
@@ -163,7 +163,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_MONTH_ID" ]
@@ -177,7 +177,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_MONTH_DESC" ]
@@ -191,7 +191,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_MONTH_ID" ]
@@ -205,7 +205,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_CAL_MONTH" ]
@@ -219,7 +219,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_FIS_MONTH" ]
@@ -233,7 +233,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_CAL_MONTH" ]
@@ -247,7 +247,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_FIS_MONTH" ]
@@ -261,7 +261,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_MONTH_NAME" ]
@@ -275,7 +275,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_MONTH_NAME" ]
@@ -289,7 +289,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_QUARTER_DESC" ]
@@ -303,7 +303,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_QUARTER_ID" ]
@@ -317,7 +317,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_QUARTER_DESC" ]
@@ -331,7 +331,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_QUARTER_ID" ]
@@ -345,7 +345,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_CAL_QUARTER" ]
@@ -359,7 +359,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_FIS_QUARTER" ]
@@ -373,7 +373,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_CAL_QUARTER" ]
@@ -387,7 +387,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_FIS_QUARTER" ]
@@ -401,7 +401,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_QUARTER_NUMBER" ]
@@ -415,7 +415,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_QUARTER_NUMBER" ]
@@ -429,7 +429,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_YEAR" ]
@@ -443,7 +443,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.CALENDAR_YEAR_ID" ]
@@ -457,7 +457,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_YEAR" ]
@@ -471,7 +471,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.FISCAL_YEAR_ID" ]
@@ -485,7 +485,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_CAL_YEAR" ]
@@ -499,7 +499,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.DAYS_IN_FIS_YEAR" ]
@@ -513,7 +513,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_CAL_YEAR" ]
@@ -527,7 +527,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "TIMES",
+          "logicalTableSource" : "LTS - TIMES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.TIMES.END_OF_FIS_YEAR" ]
@@ -536,7 +536,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "TIMES",
+      "name" : "LTS - TIMES",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:Test DB.SH.TIMES" ]

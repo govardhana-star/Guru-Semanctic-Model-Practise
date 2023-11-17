@@ -9,7 +9,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.PROD_ID" ]
@@ -23,7 +23,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.CUST_ID" ]
@@ -37,7 +37,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.TIME_ID" ]
@@ -51,7 +51,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.CHANNEL_ID" ]
@@ -65,7 +65,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.PROMO_ID" ]
@@ -79,7 +79,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.QUANTITY_SOLD" ]
@@ -97,7 +97,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "SALES",
+          "logicalTableSource" : "LTS SALES",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Test DB.SH.SALES.AMOUNT_SOLD" ]
@@ -110,7 +110,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "SALES",
+      "name" : "LTS SALES",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:Test DB.SH.SALES" ]
