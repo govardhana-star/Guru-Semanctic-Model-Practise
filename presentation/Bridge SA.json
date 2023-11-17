@@ -5,9 +5,9 @@
     "tableOrder" : [ {
       "name" : "presentationTable:Bridge SA.Patients"
     }, {
-      "name" : "presentationTable:Bridge SA.Diagnoses"
-    }, {
       "name" : "presentationTable:Bridge SA.Admissioins"
+    }, {
+      "name" : "presentationTable:Bridge SA.Group Diagnose"
     } ]
   }
 }

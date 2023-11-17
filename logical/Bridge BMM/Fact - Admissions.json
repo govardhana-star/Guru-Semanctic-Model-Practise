@@ -70,12 +70,12 @@
       "distinctValues" : false
     } ],
     "joins" : [ {
-      "rightTable" : "logicalTable:Bridge BMM.Dim - Diagnoses",
+      "rightTable" : "logicalTable:Bridge BMM.Dim - Patient",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Bridge BMM.Dim - Patient",
+      "rightTable" : "logicalTable:Bridge BMM.Dim - Diagnoses Grp Bridge",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"

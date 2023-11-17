@@ -1,0 +1,9 @@
+{
+  "presentationTable" : {
+    "name" : "Group Diagnose",
+    "presentationColumns" : [ {
+      "name" : "Weighting",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses Grp Bridge.Weighting"
+    } ]
+  }
+}

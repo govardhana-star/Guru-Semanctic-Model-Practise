@@ -21,6 +21,16 @@
     "caching" : {
       "enable" : true,
       "expiryTime" : 0
-    }
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:Test DB.ADMIN.HLP_DIAGNOSES_GRP_BRIDGE",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test DB.ADMIN.HLP_DIAGNOSES_DIM.DIAGNOSIS_ID",
+        "rightColumn" : "physicalColumn:Test DB.ADMIN.HLP_DIAGNOSES_GRP_BRIDGE.DIAGNOSIS_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }
