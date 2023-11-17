@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "Bridge SA",
+    "sourceBusinessModel" : "businessModel:Bridge BMM",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Bridge SA.Patients"
+    }, {
+      "name" : "presentationTable:Bridge SA.Diagnoses"
+    }, {
+      "name" : "presentationTable:Bridge SA.Admissioins"
+    } ]
+  }
+}

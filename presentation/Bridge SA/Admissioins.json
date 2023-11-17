@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "Admissioins",
+    "presentationColumns" : [ {
+      "name" : "Admission Date",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Fact - Admissions.Admission Date"
+    }, {
+      "name" : "Admissions Id",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Fact - Admissions.Admissions Id"
+    }, {
+      "name" : "Diagnosis Id",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Fact - Admissions.Diagnosis Id"
+    }, {
+      "name" : "Patient Id",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Fact - Admissions.Patient Id"
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "Diagnoses",
+    "presentationColumns" : [ {
+      "name" : "Diagnosis Id",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses.Diagnosis Id"
+    }, {
+      "name" : "Diagnosis Name",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses.Diagnosis Name"
+    }, {
+      "name" : "Diagnosis Date",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses.Diagnosis Date"
+    } ]
+  }
+}

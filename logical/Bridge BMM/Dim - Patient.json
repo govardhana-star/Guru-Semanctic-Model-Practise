@@ -1,0 +1,88 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Patient",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "Patient Id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_PATIENT_DIM",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_PATIENT_DIM.PATIENT_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Patient First Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_PATIENT_DIM",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_PATIENT_DIM.PATIENT_FIRST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Patient Last Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_PATIENT_DIM",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_PATIENT_DIM.PATIENT_LAST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Address",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_PATIENT_DIM",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_PATIENT_DIM.ADDRESS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Zipcode",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_PATIENT_DIM",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_PATIENT_DIM.ZIPCODE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "HLP_PATIENT_DIM",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Test DB.ADMIN.HLP_PATIENT_DIM" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "Patient Id" ]
+  }
+}

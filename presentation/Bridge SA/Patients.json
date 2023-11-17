@@ -1,0 +1,21 @@
+{
+  "presentationTable" : {
+    "name" : "Patients",
+    "presentationColumns" : [ {
+      "name" : "Patient First Name",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Patient.Patient First Name"
+    }, {
+      "name" : "Patient Id",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Patient.Patient Id"
+    }, {
+      "name" : "Patient Last Name",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Patient.Patient Last Name"
+    }, {
+      "name" : "Zipcode",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Patient.Zipcode"
+    }, {
+      "name" : "Address",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Patient.Address"
+    } ]
+  }
+}

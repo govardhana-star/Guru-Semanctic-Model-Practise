@@ -1,0 +1,84 @@
+{
+  "logicalTable" : {
+    "name" : "Fact - Admissions",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Admissions Id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_ADMISSIONS_FACT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_ADMISSIONS_FACT.ADMISSIONS_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Admission Date",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_ADMISSIONS_FACT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_ADMISSIONS_FACT.ADMISSION_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Patient Id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_ADMISSIONS_FACT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_ADMISSIONS_FACT.PATIENT_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Diagnosis Id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "HLP_ADMISSIONS_FACT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Test DB.ADMIN.HLP_ADMISSIONS_FACT.DIAGNOSIS_ID" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "HLP_ADMISSIONS_FACT",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Test DB.ADMIN.HLP_ADMISSIONS_FACT" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Bridge BMM.Dim - Diagnoses",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Bridge BMM.Dim - Patient",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}
