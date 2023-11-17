@@ -4,6 +4,12 @@
     "presentationColumns" : [ {
       "name" : "Weighting",
       "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses Grp Bridge.Weighting"
+    }, {
+      "name" : "Diagnosis Date",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses Grp Bridge.Diagnosis Date"
+    }, {
+      "name" : "Diagnosis Name",
+      "sourceLogicalColumn" : "logicalColumn:Bridge BMM.Dim - Diagnoses Grp Bridge.Diagnosis Name"
     } ]
   }
 }
